@@ -6,9 +6,12 @@ class SimpleIf
          argument is larger and return that value.
       */
 
-      if (x > y) { 
+      if (x > y) 
+      { 
          return x;
-      } else { 
+      } 
+         else 
+      { 
          return y;
       }
 

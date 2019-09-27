@@ -8,7 +8,7 @@ class BetterLoop
 
       for (int i : values)
       {
-         if (i == a) 
+         if (i == v) 
          {
             return true;  // A bit optimistic, but a real boolean value.
          }

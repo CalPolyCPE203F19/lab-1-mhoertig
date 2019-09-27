@@ -15,7 +15,8 @@ class SimpleList
          input list into the output list.  Use a "foreach".
       */
 
-      for (int a : values) {
+      for (int a : values) 
+      {
          newValues.add((int)(Math.pow(a, 2)));
       }
 
