@@ -31,9 +31,9 @@ class Point {
    if (x < 0) 
    {
       if (y < 0)
-         return Math.atan(y/x) - Math.PI
+         return Math.atan(y/x) - Math.PI;
       if (y > 0) 
-         return Math.atan(y/x) + Math.PI
+         return Math.atan(y/x) + Math.PI;
    }
    if (x == 0) 
    { 
@@ -49,7 +49,7 @@ class Point {
       if (x < 0)
          return Math.PI;
    }
-   return 0
+   return 0;
    }
 
    public Point rotate90()
