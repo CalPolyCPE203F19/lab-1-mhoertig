@@ -54,17 +54,6 @@ class Point {
 
    public Point rotate90()
    {
-      if (x > 0 && y > 0)
-      {
-         return new Point(-x, y);
-      }
-      else if (y > 0 || x > 0)
-      {
-         return new Point(x, -y);
-      }
-      else
-      {
-         return new Point(-x, y);
-      }
+      return new Point(-y, x);
    }
 }
